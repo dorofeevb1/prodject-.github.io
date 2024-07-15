@@ -39,20 +39,22 @@
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
-                }
-              ],
-              "outputHashing": "all"
-            },
+  "budgets": [
+    {
+      "type": "initial",
+      "maximumWarning": "500kB",
+      "maximumError": "1MB"
+    },
+    {
+      "type": "anyComponentStyle",
+      "maximumWarning": "2kB",
+      "maximumError": "4kB"
+    }
+  ],
+  "outputHashing": "all",
+  "baseHref": "https://dorofeevb1.github.io/prodject-.github.io/"
+}
+
             "development": {
               "optimization": false,
               "extractLicenses": false,
